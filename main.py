@@ -531,7 +531,7 @@ class RecursiveDescentParserWithAST:
 
 def user_input_prompt():
     """Prompt the user for input and return the selected option."""
-    options = ["1) LL(1)", "2) LL(k)", "3) RecursiveParser", "5) Exit"]
+    options = ["1) LL(1)", "2) LL(k)", "3) RecursiveParser", "4) Exit"]
     print("\n".join(options))
     choice = input("Select an option: ")
     return choice
